@@ -1,0 +1,104 @@
+/* Write some CSS below */
+
+body {
+	background-color: #FDFDFD;
+	color:  #404042;
+	font-family: 'Overpass', sans-serif;
+	margin: 0;
+}
+
+a {
+	color:  #;
+	text-decoration: none;
+}
+
+h1, h2, h3 {
+	font-family: 'Chivo', sans-serif;
+}
+
+/* BANNER */
+
+.banner {
+	background-image: url(images/background.jpg);
+	backgound-size: cover;
+	background-position: center;
+	padding: 150px 0;
+	text-align: center;
+}
+
+.banner h1 {
+	color: white;
+	font-size: 45px;
+	margin:  0;
+}
+
+.banner p {
+	color: white;
+	font-size: 24px;
+	opacity: 0.7;
+}
+
+/* BUTTON */
+
+.button-blue {
+	background-color: #1A48E3;
+	color: white;
+	padding: 16px 48px;
+	border-radius: 4px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.button-blue:hover {
+	background-color: #0D1EC6;
+}
+
+/* CARD */
+
+.card-white {
+	background-color: white;
+	box-shadow: 10px 20px 30px lightgrey;
+	width: 250px;
+	height:  300px;
+	margin: 30px;
+	border-radius: 5px;
+}
+
+.card-white img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+	width:  50%;
+	width: 200px;
+	height: 150px;
+	border-radius: 10px;
+}
+
+.card-white h3,p {
+	padding-left: 15px;
+}
+
+.card-white p {
+	font-size: 17px;
+}
+
+/* FOOTER */
+
+.footer {
+	background-color: rgb(64, 64, 66);
+	background-size: cover;
+	padding: 54px 0px;
+}
+
+
+.footer p {
+	color:  white;
+	font-size: 18px;
+	text-align: center;
+}
+
+
+
+
+
